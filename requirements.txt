@@ -1,0 +1,5 @@
+stdiomask==0.0.6
+selenium==3.141.0
+cowsay==4.0
+beautifulsoup4==4.9.3
+stdiomask==0.0.6
