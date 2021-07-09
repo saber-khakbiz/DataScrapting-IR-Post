@@ -1,8 +1,8 @@
 
 ## Overview
 
-This is CLI python program. It's can tracking your post postion (beta version)
-
+This is a CLI python program. It's can track your post postion (beta version)
+[Iran Tracking Post Website](https://tracking.post.ir/)
 ---
 ![Screenshot of CLI's main window](https://github.com/saber-khakbiz/DataScrapting-IR-Post/blob/master/Penv1.png)
 
@@ -49,8 +49,6 @@ The rest our dependencies (both required and optional) are declared in
 
 
 ## More information
-
-[Iran Tracking Post Website](https://tracking.post.ir/)
 
 [Download Chrome Driver](https://chromedriver.chromium.org/downloads)
 
