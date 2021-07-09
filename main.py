@@ -7,11 +7,9 @@ from DataScrapting import *
 tracking_ID = getpass("Enter Your Post Id(24 digit): ")
 check_validation(tracking_ID)
 
-
+kitty("\nplease wait...\n")
 URL = f"https://tracking.post.ir/?id={tracking_ID}&client=app"
 driver = driverChomre(URL)
-
-kitty("\nplease wait...\n")
 
 page_source = PageSource(driver)
 
