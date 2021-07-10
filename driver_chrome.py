@@ -4,6 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import Chrome
 from selenium import webdriver
 from time import sleep
+from cowsay import kitty
 def driverChomre(Url:str):
     try:
         option = webdriver.ChromeOptions()
@@ -19,10 +20,11 @@ def PageSource(driver):
     try:
         search_btn = driver.find_element_by_id("btnSearch")
         search_btn.send_keys(Keys.ENTER)
+        kitty("\nplease wait...\n")
         sleep(10)
         return driver.page_source
     except:
-        print("You can't Accsess This page!(404 Error)")
+        return "You can't Accsess This page!(404 Error)"
 
     finally:
         driver.close()

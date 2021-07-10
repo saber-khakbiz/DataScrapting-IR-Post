@@ -7,7 +7,7 @@ from DataScrapting import *
 tracking_ID = getpass("Enter Your Post Id(24 digit): ")
 check_validation(tracking_ID)
 
-kitty("\nplease wait...\n")
+
 URL = f"https://tracking.post.ir/?id={tracking_ID}&client=app"
 driver = driverChomre(URL)
 
@@ -37,4 +37,4 @@ elif warning != None :
     ghostbusters(f"\n {warning.text}")
 
 else:
-    daemon("از سمت شما ترافیک بالایی سمت سرویس های ما ارسال می شود!")
+    daemon("از سمت شما ترافیک بالایی سمت سرویس های ما ارسال می شود! لطفا چند دقیقه دیگر امتحان کنید.")
